@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Proyecto02 Ingenieria de software</title>
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/> 
+    <script type="text/javascript" src="js/main.js"></script>
+    
+
+  </head>
+
+    <body>
+
+      <section id= "Mensaje bienvenida">
+        <h4>Bienvenido a <b>NOTAS</b> v1.0</h4>
+      </section>
+
+     
+<form name="registro">
+  
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="rowBox">
+            <div class="columnBox">
+              <input type="text" name="Titulo" id="Titulo" size="20" placeholder="Título">  
+              <textarea rows="10" cols="18.5" placeholder="Escribe aquí" id="Texto" type="text"></textarea>
+            </div>
+            <div class="columnBox"> 
+              <button type="button" onclick="cambiarColorTitulo()">Cambiar color</button> 
+              <button type="button" onclick="cambiarColorTexto()">Cambiar color</button>
+               <button type="reset">Limpiar texto</button>
+              <button type="button" onclick="obtenerDatos()"><b>Guardar</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">                   
+            <td><input type="text" name="obtenerTitulo" id="obtenerTitulo" style="background-color:transparent;" class="sinborde"></td>
+            <br><br>
+            <td><input type="text" name="obtenerTexto" id="obtenerTexto" style="background-color:transparent;" class="sinborde"></td>
+        </div>
+      </div>  
+    </div>
+
+
+
+
+
+</form>
+    
+  </body>
+</html>
